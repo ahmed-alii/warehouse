@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+
+body {
+    font-family: 'Londrina Solid', cursive;
+    color: #373435;
+}
+
+.top-bar {
+    height: 106px;
+    background-color: #D9D6D6;
+}
+
+.top-bar .logo img {
+    margin-bottom: -36px;
+}
+.top-bar .info{
+    margin-right: 10px;
+}
+.header{
+    background-image: url("images/Buildings.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.header > div{
+    background-color: rgb(7 48 70 / 39%);
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+.navbar-blue{
+    background-color: #09518A;
+}
+.product h4{
+    margin-bottom: 20px;
+}
+.product > div{
+    margin-bottom: 10px;
+    height: 260px;
+}
+.product > div > img{
+    max-height: 100%;
+}
+.product{
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 420px){
+    .product > div{
+        margin-bottom: 10px;
+        height: 120px;
+    }
+    .product h4{
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
