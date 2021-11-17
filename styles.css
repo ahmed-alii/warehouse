@@ -52,7 +52,20 @@ body {
         height: 120px;
     }
     .product h4{
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
+    }
+    .header{
+        height: 200px;
+    }
+    a.dropdown-item{
+        font-size: 18px;
+    }
+    .top-bar .logo img{
+        width: 160px;
+        margin-bottom: -50px;
+    }
+    .top-bar .info .h3{
+        font-size: 26px;
     }
 }
